@@ -82,6 +82,11 @@ body * {
    font-size: 13px;
 }
 
+.saldo fieldset .display .link__extrato a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .saldo > fieldset > p {
     font-weight: 800;
 
