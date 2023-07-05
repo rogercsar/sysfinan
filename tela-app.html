@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/tela-app.css">
+    <title>App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <aside class="photo">
+                <div class="photo__avatar">
+                    <i class="fa-solid fa-user-tie fa-2xl"></i>
+                </div>
+                <div class="photo__name">
+                    <h1 class="gml-font-color">Olá, Nome</h1>
+                </div>
+            </aside>  
+         
+            <div class="saldo">
+                <fieldset>
+                    <div class="display">
+                        <div class="saldo__dp">
+                            <p>Saldo</p>
+                            <h2 id="txtSaldo">R$ 0,00</h2>
+                        </div>
+                        <div class="link__extrato">
+                            <a>Ir ao extrato ></a>
+                        </div>
+                    </div>
+
+                    <div class="botoes">
+                        <div class="btn__tools">
+                            <button id="btnPix" onclick="btnPix()"><i class="fa-brands fa-pix icons__sys"></i></button>
+                            <a>Pix</a>
+                        </div>
+                        <div class="btn__tools">
+                            <button id="btnAdd" onclick="btnAdd()"><i class="fa-sharp fa-solid fa-money-bill-trend-up icons__sys"></i></i></button>
+                            <a>Depositar</a>
+                        </div>
+                        <div class="btn__tools">
+                            <button id="btnTrans" onclick="btnTrans()"><i class="fa-solid fa-money-bill-transfer icons__sys"></i></button>
+                            <a>Transferir</a>
+                        </div>
+                        <div class="btn__tools">    
+                            <button id="btnPagar" onclick="btnPagar()"><i class="fa-solid fa-money-bill-wave icons__sys"></i></button>
+                            <a>Sacar</a>
+                        </div>
+                    </div>
+
+                    <div class="display__cartao">
+                        <div class="inf__cartao">
+                            <a><i class="fa-brands fa-cc-mastercard"></i></a>
+                            <p>Limite disponível</p>
+                            <p>R$ 5.000</p>
+                        </div>
+                        <div class="cartaoVirtual">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <p>Cartão virtual</p>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </div>
+        </div>
+        
+        <div class="emprestimo">
+            <i class="fa-solid fa-handshake-angle"></i>
+            <h2>Empréstimos</h2>
+        </div>
+
+        <div class="extras">
+            <div class="extras1">
+                <div class="reserva">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <a>Reserva</a>
+                </div>
+                <div class="criptos">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <a>Criptos</a>
+                </div>
+            </div>
+            <div class="extras2">    
+                <div class="investimentos">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <a>Investimentos</a>
+                </div>
+                <div class="indique">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <a>Indique e Ganhe</a>
+                </div>
+            </div>              
+        </div>
+       
+    </div>
+    <script src="https://kit.fontawesome.com/6486196ee5.js" crossorigin="anonymous"></script>
+</body>
+</html>

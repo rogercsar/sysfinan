@@ -1,0 +1,254 @@
+:root {
+    background-color: aquamarine;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+}
+
+.container > .subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.subcontainer > .photo {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;    
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.photo__avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 0px;
+}
+
+.photo__name > h1 {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.photo__tools > div {
+    margin-top: 15px;
+}
+
+.container > .saldo {
+    width: 100%;
+}
+
+.saldo > fieldset {
+    border-radius: 10px;
+    width: 80%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 1px solid lightslategray;
+    background-color: black;
+    color: #ffffff;
+}
+
+.saldo > fieldset > .display {
+    display: flex;
+    flex-direction: row;
+}
+
+.saldo > fieldset > .display > .saldo__dp{
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 5px;
+} 
+
+.saldo > fieldset > .display > .link__extrato {
+   width: 100%;
+   display: flex;
+   justify-content: right;
+   margin-top: 20px;
+   font-size: 13px;
+}
+
+.saldo > fieldset > p {
+    font-weight: 800;
+
+}
+
+.saldo > fieldset > .botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.botoes > .btn__tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botoes > .btn__tools > a {
+    font-size: 13px;
+    margin: 1px 5px;
+}
+
+.botoes > .btn__tools > button {
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    flex-direction: rows;
+    align-items: center;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 5px;
+}
+
+.icons__sys {
+    color: black;
+}
+
+.saldo > fieldset > .display__cartao {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 5px;
+}
+
+.display__cartao > .inf__cartao > p {
+    font-size: 12px;
+}
+
+.display__cartao > .cartaoVirtual {
+    font-size: 12px;
+}
+
+.display__cartao > .cartaoVirtual > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.emprestimo{   
+    border-radius: 10px;
+    width: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: lightgreen;
+}
+
+.emprestimo > i {
+    margin-right: 40px;
+}
+
+.emprestimo h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.extras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: lightgreen;
+    margin-top: 10px;
+    width: 252px;
+    padding: 5px 20px ;
+    border-radius: 10px;
+}
+
+.extras .extras1 div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extras .extras1 i{
+    background-color: lightgreen;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.extras .extras1 a {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.extras .extras2 div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extras .extras2 i {
+   background-color: lightgreen;
+   color: black;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.extras .extras2 a {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
