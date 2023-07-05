@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./style/tela-app.css">
     <title>App</title>
 </head>
-<body>
+<body onload="carregaTela()">
     <div class="container">
         <div class="subcontainer">
             <aside class="photo">
@@ -40,7 +40,7 @@
                             <a>Pix</a>
                         </div>
                         <div class="btn__tools">
-                            <button id="btnAdd" onclick="btnAdd()"><i class="fa-sharp fa-solid fa-money-bill-trend-up icons__sys"></i></i></button>
+                            <button id="btnAdd" onclick="btnAdd()"><a href="./add-value.html"><i class="fa-sharp fa-solid fa-money-bill-trend-up icons__sys"></i></a></button>
                             <a href="./add-value.html">Depositar</a>
                         </div>
                         <div class="btn__tools">
@@ -100,5 +100,6 @@
        
     </div>
     <script src="https://kit.fontawesome.com/6486196ee5.js" crossorigin="anonymous"></script>
+    <script src="./js/tela-app.js"></script>
 </body>
 </html>

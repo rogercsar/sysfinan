@@ -1,7 +1,9 @@
 let user = localStorage.getItem('usuario');
 
-let displayUser = document.querySelector('#displayUser');
+let displayUser = document.getElementById('displayUser');
 
 function carregaTela(){
-    displayUser.value = user;
+    let user = localStorage.getItem('usuario');
+    let displayUser = document.getElementById('displayUser');
+    displayUser.textContent = "Olá, " + user;
 }
