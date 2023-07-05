@@ -47,12 +47,13 @@ body * {
     justify-content: left;
     align-items: center;
     font-size: 12px;
-    width: 90%;
+    width: 92%;
+    margin-left: 10px;
 }
 
 .add__tools .addcontas {
     padding: 10px;
-    width: 80%;
+    width: 90%;
     border-bottom: 1px solid aquamarine;
     border-radius: 10px;
     background-color: black;
