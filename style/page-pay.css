@@ -34,7 +34,6 @@ body * {
 }
 
 .container .cad__chave {
-    width: 80%;
     display: flex;
     justify-content: left;
     align-items: center;
