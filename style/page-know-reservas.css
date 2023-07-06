@@ -69,6 +69,7 @@ body * {
 
 .inf__reserva p {
     font-size: 13px;
+    width: 200px;
 }
 
 
@@ -86,4 +87,5 @@ body * {
     color: lightgreen;
     height: 50px;
     border-radius: 10px;
+    border: 1px solid black;
 }
