@@ -87,17 +87,18 @@ body * {
     color: lightgreen;
     width: 100%;
     margin: 4px;
+    padding: 5px;
 }
 
 .fazer__pix .fazerPix i {
-    margin-bottom: 20px;
-    width: 20px;
-    height: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .fazer__pix .fazerPix a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
+    font-weight: 500;
 }

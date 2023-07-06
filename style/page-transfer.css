@@ -50,15 +50,17 @@ body * {
 }
 
 .cad__transf .transf__tools i {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .cad__transf .info__transf h2 {
     font-size: 15px;
     font-weight: 600;
+    text-align: left;
 }
 
 .cad__transf .info__transf p {
     font-size: 12px;
     color: #ffffff;
+    text-align: left;
 }

@@ -10,7 +10,7 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .cabecalho .btnback {
@@ -52,7 +52,7 @@ body * {
 }
 
 .add__tools .addcontas {
-    padding: 10px;
+    padding: 5px;
     width: 90%;
     border-bottom: 1px solid aquamarine;
     border-radius: 10px;
@@ -60,12 +60,19 @@ body * {
     color: lightgreen;
 }
 
+.addcontas i {
+    margin: 20px 4px 20px 20px;
+}
+
 .add__tools .addcontas a {
     text-decoration: none;
     color: #ffffff;
     margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .add__tools .addcontas p {
     font-size: 10px;
+    margin-left: 20px;
 }
