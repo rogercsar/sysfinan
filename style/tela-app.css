@@ -128,7 +128,7 @@ body * {
     font-size: 15px;
     font-weight: 500;
     margin: 15px 10px;
-    
+    border: 1px solid black;
 }
 
 .icons__sys {
