@@ -35,7 +35,6 @@ body * {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    border: 1px solid black;
 }
 
 .photo__name > h1 {
@@ -125,10 +124,11 @@ body * {
     align-items: center;
     text-align: center;
     background-color: lightgreen;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: 500;
     margin: 15px 10px;
+    
 }
 
 .icons__sys {
