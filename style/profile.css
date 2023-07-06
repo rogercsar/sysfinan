@@ -1,0 +1,89 @@
+:root {
+    background-color: aquamarine;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
+.container .cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cabecalho .btnback {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cabecalho .btnback a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho .txtPage {
+    width: 90%;
+}
+
+.cabecalho .txtPage h2 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.container .cad__chave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: lightgreen;
+}
+
+.cad__chave .chave__tools {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cad__chave .chave__tools i {
+    margin-right: 30px;
+}
+
+.cad__chave .info__cad h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cad__chave .info__cad p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.dados h3 {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.dados fieldset {
+    border: none;
+}
+
+.dados .photo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dados .photo__name {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dados .photo__name a {
+    text-decoration: none;
+    color: #ffffff;
+}

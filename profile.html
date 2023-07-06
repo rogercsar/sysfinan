@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/profile.css">
     <title>Perfil</title>
 </head>
-<body>
+<body onload="carregaTela()">
     <div class="container">
-        
+        <div class="cabecalho">
+            <div class="btnback">
+                <a href="./tela-app.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="txtPage">           
+                <h2>Perfil</h2>
+            </div>
+        </div>
+
+        <div class="cad__chave">
+                <aside class="dados">
+                    <h3>Seus dados</h3>
+                    <fieldset>
+                        <aside class="photo">
+                            <div class="photo__avatar">
+                                <i class="fa-solid fa-user-tie fa-2xl"></i>
+                            </div>
+                            <div class="photo__name">
+                                <a href="./profile.html"><h1 id="displayUser" class="gml-font-color">Olá, Nome</h1></a> 
+                            </div>
+                        </aside>  
+                        <p>Nome: <span style="color: white;">Roger César dos Santos</span></p>
+                        <p>Idade: <span style="color: white;"> 32 </span></p>
+                        <p>Estado Civil: <span style="color: white;">Casado </span></p>
+                        <p>Profissão: <span style="color: white;">Engenheiro de Software</span></p>
+                    </fieldset>
+                </aside>         
+        </div>
+                 
+
+           
 
     </div>
-    
+    <script src="https://kit.fontawesome.com/6486196ee5.js" crossorigin="anonymous"></script>   
+    <script src="./js/profile.js"></script>
 </body>
 </html>
